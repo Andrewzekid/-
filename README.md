@@ -43,6 +43,9 @@ In the line ```continuous_EV("OYJ HMT IKU HOT NGT KZN",10)```, we pass in 2 argu
 Run the cell with the above code in jupyter notebook and it will print out a list of optimal bets.
 
 Sample Result:
+```[(['HMT', 'HOT', 'IKU', 'KZN', 'NGT'], 15.790233151344854), (['HOT', 'IKU', 'KZN', 'NGT', 'NGT'], 14.181127119665728), (['HMT', 'HOT', 'KZN', 'NGT', 'NGT'], 13.809859231804879), (['HOT', 'IKU', 'KZN', 'KZN', 'NGT'], 13.805005133189756), (['HMT', 'IKU', 'KZN', 'KZN', 'NGT'], 13.721430035352462), (['HMT', 'IKU', 'KZN', 'NGT', 'NGT'], 13.60621668407888), (['HMT', 'HOT', 'KZN', 'KZN', 'NGT'], 13.57276204660796),...```
+
+This tells us that for a wheel with configuration "OYJ HMT IKU HOT NGT KZN", ['HMT', 'HOT', 'IKU', 'KZN', 'NGT'] is the best combo to bet on with an expected value of 15.790233151344854.
 
 
 ## Results

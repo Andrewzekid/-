@@ -32,8 +32,18 @@ EV = Probability(Win) X Payout - Cost
 We then sort all the different combinations by expected values and bet on the combination with the highest EV.
 
 ## How to use
-* Run all cells in jupyter notebook, stopping after you define the ```calc_optimal_bets()``` function.
-* 
+* Run all cells in jupyter notebook, stopping after you define the ```continuous_EV()``` function.
+```
+  #calibrate payouts
+continuous_EV("OYJ HMT IKU HOT NGT KZN",10)
+calc_optimal_bets()
+```
+
+In the line ```continuous_EV("OYJ HMT IKU HOT NGT KZN",10)```, we pass in 2 arguments, the first is the configuration of the wheel (so in this case the first dish is OYJ, the second dish is HMT, the third dish is IKU - stands for ikura = kaviar in japanese, fourth dish is HOT, fifth dish is NGT and 6th dish is KZN) and the second is the cost to bet on one combination of 5 (it is 10 in this case).
+Run the cell with the above code in jupyter notebook and it will print out a list of optimal bets.
+
+Sample Result:
+
 
 ## Results
 Start: 550 Medals

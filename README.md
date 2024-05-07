@@ -6,9 +6,13 @@ Games that use medals are called <strong>Medal Games</strong>
 
 ## Gapori Sushi
 One Medal game is Gapori sushi, a roulette like game.
-Every round 5 balls are launched into a spinning wheel.
+Every round 5 balls are launched into a spinning wheel. 
 The spinning wheel has different slots, each slot corresponding to a different type of sushi.
-There are a total of 18 slots, and every round the configuration of the slots will reset.
+There are a total of 18 slots, and every round the configuration of the slots will reset. Each ball will land on one of the 18 possible slots.
+
+
+<video src="https://github.com/Andrewzekid/GaporiSushi/assets/79450923/015303ac-dbb4-47c9-863b-262bfafe81e1" />
+
 
 For instance, on 1 round there may be 3 slots for salmon, 4 slots for eggs, 5 slots for nato...etc.
 On the next round it will be a totally different configuration: 2 slots for unagis, 4 slots for maguro, 3 slots for kaviar...etc.
@@ -21,7 +25,9 @@ I set out to create a system which, given the current configuration of the wheel
 
 ## Probability calculations
 To make profit, we have to first know the EV (expected value) of all combinations. THis is done firstly by calculating the probability of all combinations.
+
 ![images](https://github.com/Andrewzekid/GaporiSushi/assets/79450923/434a47f1-69fe-45a6-aab4-931a16c4780a)
+
 To do this, we run a monte carlo simulation by playing the game 1,000,000 times, noting down the number of occurances for each combination of 5. The number of occurances is then divided by 1,000,000 to find the probability of a specific combination.
 After this we calculate the payout for each combination (how much you win if that combination comes up) and find the expected value.
 

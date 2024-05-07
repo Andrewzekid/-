@@ -4,8 +4,6 @@ You convert your money into a certain number of medals (e.g: 1000 yen for 1500 m
 These medals can then be used to play at games such as slot machines or roulettes, akin to a casino (except medals cannot be converted back into real money).
 Games that use medals are called <strong>Medal Games</strong>
 
-<video src="https://github.com/Andrewzekid/GaporiSushi/assets/79450923/015303ac-dbb4-47c9-863b-262bfafe81e1" />
-
 ## Gapori Sushi
 One Medal game is Gapori sushi, a roulette like game.
 Every round 5 balls are launched into a spinning wheel. 
@@ -33,6 +31,14 @@ EV = Probability(Win) X Payout - Cost
 
 We then sort all the different combinations by expected values and bet on the combination with the highest EV.
 
+## How to use
+* Run all cells in jupyter notebook, stopping after you define the ```calc_optimal_bets()``` function.
+* 
+
 ## Results
 Start: 550 Medals
 End (After 10 games): 640 Medals <span style="color:green;">(+90 Medals, ^16%)</span>)
+
+## Video of the Game
+
+<video src="https://github.com/Andrewzekid/GaporiSushi/assets/79450923/015303ac-dbb4-47c9-863b-262bfafe81e1" />

@@ -10,9 +10,7 @@ Every round 5 balls are launched into a spinning wheel.
 The spinning wheel has different slots, each slot corresponding to a different type of sushi.
 There are a total of 18 slots, and every round the configuration of the slots will reset. Each ball will land on one of the 18 possible slots.
 
-
 <video src="https://github.com/Andrewzekid/GaporiSushi/assets/79450923/015303ac-dbb4-47c9-863b-262bfafe81e1" />
-
 
 For instance, on 1 round there may be 3 slots for salmon, 4 slots for eggs, 5 slots for nato...etc.
 On the next round it will be a totally different configuration: 2 slots for unagis, 4 slots for maguro, 3 slots for kaviar...etc.
@@ -35,6 +33,6 @@ EV = Probability(Win) X Payout - Cost
 
 We then sort all the different combinations by expected values and bet on the combination with the highest EV.
 
-## Results.
+## Results
 Start: 550 Medals
 End (After 10 games): 640 Medals <span style="color:green;">(+90 Medals, ^16%)</span>)

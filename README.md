@@ -4,13 +4,13 @@ You convert your money into a certain number of medals (e.g: 1000 yen for 1500 m
 These medals can then be used to play at games such as slot machines or roulettes, akin to a casino (except medals cannot be converted back into real money).
 Games that use medals are called <strong>Medal Games</strong>
 
+<video src="https://github.com/Andrewzekid/GaporiSushi/assets/79450923/015303ac-dbb4-47c9-863b-262bfafe81e1" />
+
 ## Gapori Sushi
 One Medal game is Gapori sushi, a roulette like game.
 Every round 5 balls are launched into a spinning wheel. 
 The spinning wheel has different slots, each slot corresponding to a different type of sushi.
 There are a total of 18 slots, and every round the configuration of the slots will reset. Each ball will land on one of the 18 possible slots.
-
-<video src="https://github.com/Andrewzekid/GaporiSushi/assets/79450923/015303ac-dbb4-47c9-863b-262bfafe81e1" />
 
 For instance, on 1 round there may be 3 slots for salmon, 4 slots for eggs, 5 slots for nato...etc.
 On the next round it will be a totally different configuration: 2 slots for unagis, 4 slots for maguro, 3 slots for kaviar...etc.
